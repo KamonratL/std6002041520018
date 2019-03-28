@@ -8,7 +8,6 @@ class App extends Component  {
         return (
             <View>
                 <Header title="Albums" />
-                <Text>Hello World</Text>
                 <Card />
             </View>
         );

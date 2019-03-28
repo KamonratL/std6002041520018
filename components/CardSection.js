@@ -4,8 +4,9 @@ import { View, Text } from 'react-native';
 class CardSection extends Component {
     render() {
         return (
-            <View>
-               <Text>xxx</Text>
+            <View >
+                {this.props.children}
+              
             </View>
         );
     }
