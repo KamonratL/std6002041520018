@@ -1,7 +1,8 @@
 //import library
-import React from 'react';
+import React, { Component } from 'react';
 import { View, Text } from 'react-native'
-class App extends React.Components {
+
+class App extends Component  {
     render() {
         return (
             <View>
@@ -10,5 +11,5 @@ class App extends React.Components {
         );
     }
 }
-//export
+
 export default App;
