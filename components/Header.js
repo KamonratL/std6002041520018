@@ -1,17 +1,17 @@
 //import library
 import React, { Component } from 'react';
 import { View, Text } from 'react-native';
-import Header from './Header'
 
-class App extends Component  {
+//create component
+class Header extends Component {
     render() {
         return (
             <View>
-                <Header title="Albums" />
-                <Text>Hello World</Text>
+                <Text>{this.props.title}</Text>
             </View>
         );
     }
 }
 
-export default App;
+//export
+export default Header;
