@@ -6,7 +6,6 @@ class CardSection extends Component {
         return (
             <View >
                 {this.props.children}
-              
             </View>
         );
     }
